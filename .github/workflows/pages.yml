@@ -1,0 +1,46 @@
+# Fetches the live series, runs the tests, builds the page and publishes it to GitHub Pages.
+# Runs on every push to main, every morning, and by hand.
+name: Refresh and publish
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '30 5 * * *' # 05:30 UTC, after the daily sources have updated
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      # A source that is down keeps the series committed in the repo, so the page still builds.
+      - run: npm run fetch || echo "::warning::A data source failed; its previous series is used."
+      - run: npm test
+      - run: npm run build
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,472 @@
+{
+  "company": "Kemira Oyj",
+  "timeline": {
+    "from": "2026-01-01",
+    "to": "2026-11-01"
+  },
+  "threads": [
+    {
+      "id": "targets",
+      "title": "Pitkän aikavälin tavoitteet"
+    },
+    {
+      "id": "water-engineering",
+      "title": "Yritysosto: Water Engineering"
+    },
+    {
+      "id": "outlook-2026",
+      "title": "Näkymät 2026"
+    },
+    {
+      "id": "buyback-2026",
+      "title": "Omien osakkeiden osto"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "targets-2024",
+      "date": "2024-09-25",
+      "thread": "targets",
+      "title": "Uudet pitkän aikavälin tavoitteet",
+      "by": "Hallitus",
+      "summary": "Hallitus hyväksyi uudet taloudelliset tavoitteet: orgaaninen kasvu keskimäärin yli 4 % vuodessa, operatiivinen käyttökate 18-21 % liikevaihdosta (aiemmin 15-18 %) ja operatiivinen ROCE yli 16 %. Strategian mukaan vesiliiketoiminnan liikevaihto aiotaan pitkällä aikavälillä kaksinkertaistaa, myös yritysostoin.",
+      "restsOn": [
+        {
+          "assumption": "water-demand",
+          "wording": "Vedenkäsittelyn kysyntä kasvaa, koska sääntely kiristyy sekä Euroopassa että Amerikassa."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Pörssitiedote: pitkän aikavälin taloudelliset tavoitteet päivitetään",
+          "url": "https://www.kemira.com/news-and-stories/newsroom/releases/kemira-updates-its-long-term-financial-targets-to-reflect-profitable-growth-ambitions-and-structurally-higher-margin-profile/",
+          "published": "2024-09-25"
+        },
+        {
+          "title": "Kemira.com: kasvuajurit",
+          "url": "https://www.kemira.com/investors/kemira-as-an-investment/growth-drivers/"
+        }
+      ],
+      "short": "tavoitteet"
+    },
+    {
+      "id": "water-engineering-2025",
+      "date": "2025-09-16",
+      "thread": "water-engineering",
+      "title": "Yritysosto: Water Engineering, noin 150 M$",
+      "by": "Yhtiö",
+      "summary": "Kemira sopi ostavansa yhdysvaltalaisen Water Engineering, Inc:n noin 150 miljoonalla dollarilla. Kauppa vei Kemiran teollisuuden vedenkäsittelypalveluihin Pohjois-Amerikassa.",
+      "buildsOn": [
+        {
+          "decision": "targets-2024",
+          "why": "Tulkinta: kauppa toteuttaa strategian tavoitetta kasvattaa vesiliiketoimintaa yritysostoin."
+        }
+      ],
+      "restsOn": [],
+      "closed": {
+        "date": "2025-10-24",
+        "note": "Kauppa toteutui 24.10.2025."
+      },
+      "sources": [
+        {
+          "title": "Tiedote: Kemira ostaa Water Engineering, Inc:n",
+          "url": "https://www.kemira.com/news-and-stories/newsroom/releases/kemira-expands-into-industrial-water-treatment-services-with-the-acquisition-of-water-engineering-inc/",
+          "published": "2025-09-16"
+        },
+        {
+          "title": "Tiedote: kauppa toteutui",
+          "url": "https://www.kemira.com/news-and-stories/newsroom/releases/kemira-completes-the-acquisition-of-water-engineering-inc/",
+          "published": "2025-10-24"
+        }
+      ],
+      "short": "yritysosto"
+    },
+    {
+      "id": "outlook-2026-02",
+      "date": "2026-02-12",
+      "thread": "outlook-2026",
+      "title": "Näkymät 2026: käyttökate 470-570 M€",
+      "by": "Yhtiö",
+      "summary": "Tilinpäätöstiedote: vuoden 2026 liikevaihdon odotetaan olevan 2 600-3 000 M€ ja operatiivisen käyttökatteen 470-570 M€. Vuoden 2025 käyttökate oli 524,6 M€ (19,1 %). Hallitus ehdotti 0,76 euron osinkoa, yhteensä 114 M€.",
+      "restsOn": [
+        {
+          "assumption": "cost",
+          "wording": "Raaka-aineympäristö pysyy vakaana."
+        },
+        {
+          "assumption": "operations",
+          "wording": "Tuotannossa tai toimitusketjussa ei ole merkittäviä häiriöitä."
+        },
+        {
+          "assumption": "usd",
+          "wording": "Dollari heikkenee hieman vuoden 2025 lopun tasosta."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Tilinpäätöstiedote 2025",
+          "url": "https://www.kemira.com/news-and-stories/newsroom/releases/kemira-oyjs-financial-statements-bulletin-2025-solid-profitability-in-a-continued-weak-market-environment/",
+          "published": "2026-02-12"
+        }
+      ],
+      "short": "470-570 M€"
+    },
+    {
+      "id": "buyback-2026",
+      "date": "2026-02-12",
+      "thread": "buyback-2026",
+      "title": "Omien osakkeiden osto, enintään 100 M€",
+      "by": "Hallitus",
+      "summary": "Hallitus päätti aloittaa omien osakkeiden osto-ohjelman: enintään 5 000 000 osaketta ja enintään 100 M€, 13.2.-20.9.2026. Tarkoitus on pääomarakenteen optimointi. Tiedotteen mukaan vahva tase riittää samalla kasvuinvestointeihin ja yritysostoihin.",
+      "buildsOn": [
+        {
+          "decision": "outlook-2026-02",
+          "why": "Tulkinta: ohjelma päätettiin samana päivänä kuin näkymät annettiin, ja sen mitoitus nojaa näkymien mukaiseen tulokseen."
+        }
+      ],
+      "restsOn": [],
+      "closed": {
+        "date": "2026-06-16",
+        "note": "Ohjelma valmis 16.6.2026: 5 000 000 osaketta, keskihinta 18,70 €, yhteensä noin 94 M€."
+      },
+      "sources": [
+        {
+          "title": "Pörssitiedote: Kemira aloittaa uuden omien osakkeiden osto-ohjelman",
+          "url": "https://www.kemira.com/news-and-stories/newsroom/releases/kemira-commences-a-new-share-buyback-program/",
+          "published": "2026-02-12"
+        },
+        {
+          "title": "Pörssitiedote: osto-ohjelma on saatu päätökseen",
+          "url": "https://news.cision.com/kemira-oyj/r/kemira-has-completed-its-share-buyback-program-announced-in-february-2026,c4364698",
+          "published": "2026-06-16"
+        }
+      ],
+      "short": "enintään 100 M€"
+    },
+    {
+      "id": "outlook-2026-04",
+      "date": "2026-04-24",
+      "thread": "outlook-2026",
+      "revises": "outlook-2026-02",
+      "title": "Näkymät ennallaan: 470-570 M€",
+      "by": "Yhtiö",
+      "summary": "Q1-katsaus: näkymät pidettiin ennallaan. Tammi-maaliskuun liikevaihto oli 677,3 M€ (708,8) ja operatiivinen käyttökate 117,3 M€ (135,5), eli 17,3 % (19,1 %). Kustannusten nousua vastaan on tehty hinnankorotuksia.",
+      "restsOn": [
+        {
+          "assumption": "pricing",
+          "wording": "Iranin sodan aiheuttama raaka-aine- ja logistiikkakustannusten nousu pystytään pääosin kompensoimaan."
+        },
+        {
+          "assumption": "operations",
+          "wording": "Tuotannossa tai toimitusketjussa ei ole merkittäviä häiriöitä."
+        },
+        {
+          "assumption": "usd",
+          "wording": "Dollari heikkenee hieman vuoden 2025 lopun tasosta."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Osavuosikatsaus tammi-maaliskuu 2026",
+          "url": "https://www.kemira.com/news-and-stories/newsroom/releases/kemira-oyjs-january-march-2026-interim-report-revenue-and-profitability-declined-in-a-weak-market-performance-improvement-actions-accelerated/",
+          "published": "2026-04-24"
+        }
+      ],
+      "short": "ennallaan"
+    },
+    {
+      "id": "outlook-2026-06",
+      "date": "2026-06-10",
+      "thread": "outlook-2026",
+      "revises": "outlook-2026-04",
+      "title": "Tulosvaroitus: käyttökate 400-500 M€",
+      "by": "Yhtiö",
+      "summary": "Operatiivisen käyttökatteen näkymä laskettiin 470-570 M€:sta 400-500 M€:oon. Syynä Iranin sodan pitkittyminen: raaka-aine- ja logistiikkakustannukset nousivat odotettua enemmän, ja hinnankorotusten vaikutus jäi heikon kysynnän takia arvioitua pienemmäksi ja tuli viiveellä.",
+      "restsOn": [
+        {
+          "assumption": "cost",
+          "wording": "Raaka-aineiden, myös öljyjohdannaisten, ja logistiikan kustannukset eivät enää nouse merkittävästi."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Sisäpiiritieto, tulosvaroitus: Kemira laskee kannattavuusnäkymiään",
+          "url": "https://www.kemira.com/news-and-stories/newsroom/releases/inside-information-profit-warning-kemira-downgrades-its-profitability-outlook-for-2026/",
+          "published": "2026-06-10"
+        }
+      ],
+      "short": "400-500 M€"
+    },
+    {
+      "id": "outlook-2026-07",
+      "date": "2026-07-17",
+      "thread": "outlook-2026",
+      "revises": "outlook-2026-06",
+      "title": "Näkymät ennallaan: 400-500 M€",
+      "by": "Yhtiö",
+      "summary": "Puolivuosikatsaus: näkymät pidettiin ennallaan. Tammi-kesäkuun liikevaihto oli 1 370,3 M€ (-2 %) ja operatiivinen käyttökate 229,0 M€, eli 16,7 % (19,1 %). Yli 130 tehtävää on vähennetty, vuositason säästö noin 15 M€.",
+      "restsOn": [
+        {
+          "assumption": "cost",
+          "wording": "Kustannusinflaatio nostaa vuoden 2026 kuluja noin 100 M€, ei enempää."
+        },
+        {
+          "assumption": "pricing",
+          "wording": "Noin puolet kustannusten noususta katetaan hinnankorotuksilla."
+        },
+        {
+          "assumption": "operations",
+          "wording": "Tuotannossa tai toimitusketjussa ei ole merkittäviä häiriöitä."
+        },
+        {
+          "assumption": "usd",
+          "wording": "Dollari pysyy vakaana."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Puolivuosikatsaus 2026",
+          "url": "https://www.kemira.com/news-and-stories/newsroom/releases/kemira-oyjs-half-year-financial-report-2026-profitability-weakened-by-cost-inflation-performance-improvement-measures-continue/",
+          "published": "2026-07-17"
+        }
+      ],
+      "short": "ennallaan"
+    },
+    {
+      "id": "outlook-2026-10",
+      "date": "2026-10-23",
+      "thread": "outlook-2026",
+      "planned": true,
+      "title": "Q3-katsaus: pitävätkö näkymät?",
+      "by": "Tulossa",
+      "summary": "Tammi-syyskuun osavuosikatsaus julkaistaan 23.10.2026. Sitä ennen on päätettävä, pidetäänkö 400-500 M€:n näkymät ennallaan.",
+      "buildsOn": [
+        {
+          "decision": "outlook-2026-07",
+          "why": "Päätös tehdään voimassa olevien näkymien ja niiden oletusten pohjalta."
+        }
+      ],
+      "restsOn": [],
+      "sources": [
+        {
+          "title": "Pörssitiedote: taloudellinen raportointi vuonna 2026",
+          "url": "https://www.kemira.com/news-and-stories/newsroom/releases/kemira-oyj-financial-reporting-and-annual-general-meeting-in-2026/"
+        }
+      ],
+      "short": "Q3-katsaus"
+    }
+  ],
+  "assumptions": [
+    {
+      "id": "cost",
+      "title": "Raaka-aine- ja logistiikkakustannukset",
+      "claim": "Raaka-aineiden ja logistiikan kustannukset pysyvät tasolla, jolle päätös mitoitettiin.",
+      "instruments": [
+        "hormuz",
+        "brent",
+        "ppi-chemicals"
+      ]
+    },
+    {
+      "id": "pricing",
+      "title": "Hinnankorotusten läpimeno",
+      "claim": "Asiakkaat hyväksyvät hinnankorotukset, joilla kustannusten nousu katetaan.",
+      "instruments": [
+        "paper-production"
+      ],
+      "gap": "Yksi julkinen instrumentti ei riitä vahvistamaan tätä. Parhaiten sen näkee Kemiran omasta toteutuneesta hintakehityksestä."
+    },
+    {
+      "id": "usd",
+      "title": "Dollarin kurssi",
+      "claim": "Dollari liikkuu niin kuin näkymissä oletettiin.",
+      "instruments": [
+        "eurusd"
+      ]
+    },
+    {
+      "id": "operations",
+      "title": "Tuotanto ja toimitusketju",
+      "claim": "Kemiran omassa tuotannossa tai toimitusketjussa ei ole merkittäviä häiriöitä.",
+      "instruments": [
+        "watch-operations"
+      ],
+      "gap": "Yhtiön oma data tuotantokatkoista ja toimitusvarmuudesta olisi parempi instrumentti kuin uutiset."
+    },
+    {
+      "id": "water-demand",
+      "title": "Vedenkäsittelyn kysyntä",
+      "claim": "Sääntely kiristyy Euroopassa ja Amerikassa ja kasvattaa vedenkäsittelyn kysyntää.",
+      "instruments": [
+        "watch-regulation"
+      ],
+      "gap": "Seuraavaksi numeeriset instrumentit: säädöshankkeiden tila (EU, EPA) ja julkiset hankinnat."
+    }
+  ],
+  "instruments": [
+    {
+      "id": "hormuz",
+      "title": "Alusliikenne Hormuzinsalmessa",
+      "measures": "Salmen läpi kulkevien alusten määrä verrattuna samaan ajankohtaan vuotta aiemmin. Fyysinen mittari sille, liikkuvatko öljy, öljyjohdannaiset ja rahti Persianlahdelta.",
+      "unit": "% vuodentakaisesta",
+      "source": {
+        "name": "IMF PortWatch (alusten satelliittiseuranta)",
+        "url": "https://portwatch.imf.org/"
+      },
+      "cadence": "daily",
+      "smoothDays": 7,
+      "lagDays": 9,
+      "mode": "points",
+      "badDirection": "down",
+      "warn": 30,
+      "breach": 60,
+      "why": "Vertailujaksolla 6/2024-2/2026 liikenne laski 90 päivässä yli 26 pistettä vain viitenä prosenttina päivistä. Suurin lasku oli 47 pistettä.",
+      "blindSpot": "Ei kerro hinnoista mitään, eikä siitä, mitä reittejä Kemiran omat toimitukset käyttävät.",
+      "decimals": 0,
+      "unitShort": "%"
+    },
+    {
+      "id": "brent",
+      "title": "Brent-raakaöljyn hinta",
+      "measures": "Öljyjohdannaisten ja kuljetuspolttoaineiden hinnan suunta. Kemira nimeää öljyjohdannaiset itse tulosvaroituksessaan.",
+      "unit": "USD/barreli",
+      "source": {
+        "name": "U.S. EIA, FRED-sarja DCOILBRENTEU",
+        "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
+      },
+      "cadence": "daily",
+      "smoothDays": 7,
+      "lagDays": 7,
+      "mode": "percent",
+      "badDirection": "up",
+      "warn": 10,
+      "breach": 20,
+      "why": "Vertailujaksolla 6/2024-2/2026 hinta nousi 90 päivässä yli 8 % vain viitenä prosenttina päivistä. Suurin nousu oli 16 %.",
+      "blindSpot": "Raakaöljy ei ole Kemiran raaka-aine. Se ennakoi johdannaisten hintaa, mutta ei kerro Kemiran sopimushinnoista tai suojauksista.",
+      "decimals": 0,
+      "unitShort": "USD"
+    },
+    {
+      "id": "ppi-chemicals",
+      "title": "Kemikaalien tuottajahinnat, EU",
+      "measures": "Mitä kemianteollisuuden tuotteista todella maksetaan EU:ssa. Kertoo, onko kustannuspaine ehtinyt hintoihin asti.",
+      "unit": "indeksi, 2021 = 100",
+      "source": {
+        "name": "Eurostat, sts_inpp_m, toimiala C20",
+        "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_inpp_m/default/table"
+      },
+      "cadence": "monthly",
+      "smoothDays": 1,
+      "lagDays": 38,
+      "mode": "percent",
+      "badDirection": "up",
+      "warn": 2,
+      "breach": 4,
+      "why": "Vertailujaksolla 6/2024-2/2026 indeksi nousi 90 päivässä enimmillään 1,7 %.",
+      "blindSpot": "Tulee noin kaksi kuukautta jäljessä ja kattaa koko kemianteollisuuden, ei Kemiran ostokoria.",
+      "decimals": 1,
+      "unitShort": ""
+    },
+    {
+      "id": "paper-production",
+      "title": "Paperin ja kartongin tuotanto, EU",
+      "measures": "Kemiran suurimman asiakastoimialan tuotantomäärä. Kun kysyntä on heikkoa, hinnankorotukset eivät mene läpi.",
+      "unit": "indeksi, 2021 = 100",
+      "source": {
+        "name": "Eurostat, sts_inpr_m, toimiala C17",
+        "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_inpr_m/default/table"
+      },
+      "cadence": "monthly",
+      "smoothDays": 1,
+      "lagDays": 47,
+      "mode": "percent",
+      "badDirection": "down",
+      "warn": 2,
+      "breach": 4,
+      "why": "Vertailujaksolla 6/2024-2/2026 tuotanto laski 90 päivässä yli 1,8 % vain viitenä prosenttina päivistä. Suurin lasku oli 2,8 %.",
+      "blindSpot": "Mittaa asiakkaiden tuotantomäärää, ei sitä, hyväksyvätkö he Kemiran hinnat. Vain EU.",
+      "decimals": 1,
+      "unitShort": ""
+    },
+    {
+      "id": "eurusd",
+      "title": "Euron dollarikurssi",
+      "measures": "Montako dollaria eurolla saa. Suuri osa Kemiran liikevaihdosta tulee dollareissa.",
+      "unit": "USD/EUR",
+      "source": {
+        "name": "Euroopan keskuspankki, viitekurssi",
+        "url": "https://data.ecb.europa.eu/data/datasets/EXR/EXR.D.USD.EUR.SP00.A"
+      },
+      "cadence": "daily",
+      "smoothDays": 7,
+      "lagDays": 1,
+      "mode": "percent",
+      "badDirection": "both",
+      "warn": 10,
+      "breach": 20,
+      "why": "Vertailujaksolla 6/2024-2/2026 kurssi muuttui 90 päivässä yli 8 % vain viitenä prosenttina päivistä. Suurin muutos oli 11 %.",
+      "blindSpot": "Kertoo kurssin, ei Kemiran valuuttasuojausten vaikutusta.",
+      "decimals": 3,
+      "unitShort": ""
+    },
+    {
+      "id": "watch-operations",
+      "title": "Uutisvahti: Kemiran tuotanto ja toimitusketju",
+      "measures": "Agentti hakee päivittäin uutisia, jotka olisivat ristiriidassa oletuksen kanssa, ja jättää löydökset ihmisen tarkistettaviksi.",
+      "watch": {
+        "query": "Uutiset Kemiran tehtaiden tuotantokatkoista, force majeure -ilmoituksista ja toimitusvaikeuksista, sekä merkittävistä häiriöistä kuljetusreiteillä, joita Kemiran raaka-aineet käyttävät.",
+        "findings": [
+          {
+            "id": "seed-hormuz-2026-03-01",
+            "date": "2026-03-01",
+            "title": "Öljytankkerien liikenne Hormuzinsalmessa pysähtyi Persianlahden iskujen takia (S&P Global)",
+            "url": "https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/030126-oil-tanker-traffic-halts-in-strait-of-hormuz-amid-gulf-strikes-cas",
+            "note": "Käsin lisätty esimerkki siitä, miltä agentin löydös näyttäisi. Agenttia ei ole ajettu.",
+            "state": "open"
+          }
+        ]
+      },
+      "unit": "löydöstä",
+      "decimals": 0,
+      "unitShort": "",
+      "source": {
+        "name": "Verkkohaku (agentti)",
+        "url": ""
+      },
+      "cadence": "daily",
+      "smoothDays": 1,
+      "lagDays": 0,
+      "mode": "points",
+      "badDirection": "up",
+      "warn": 1,
+      "breach": 1,
+      "why": "Tarkistamaton löydös on varoitus, vahvistettu löydös rajan ylitys.",
+      "blindSpot": "Löytää vain sen, mistä on uutisoitu. Väärä löydös maksaa yhden ihmisen tarkistuksen, ei enempää."
+    },
+    {
+      "id": "watch-regulation",
+      "title": "Uutisvahti: vedenkäsittelyn sääntely EU:ssa ja Yhdysvalloissa",
+      "measures": "Agentti hakee päivittäin uutisia, jotka olisivat ristiriidassa oletuksen kanssa, ja jättää löydökset ihmisen tarkistettaviksi.",
+      "watch": {
+        "query": "Muutokset EU:n yhdyskuntajätevesidirektiivin toimeenpanossa ja Yhdysvaltain EPA:n PFAS-rajoissa: lykkäykset, kumoamiset tai kiristykset.",
+        "findings": []
+      },
+      "unit": "löydöstä",
+      "decimals": 0,
+      "unitShort": "",
+      "source": {
+        "name": "Verkkohaku (agentti)",
+        "url": ""
+      },
+      "cadence": "daily",
+      "smoothDays": 1,
+      "lagDays": 0,
+      "mode": "points",
+      "badDirection": "up",
+      "warn": 1,
+      "breach": 1,
+      "why": "Tarkistamaton löydös on varoitus, vahvistettu löydös rajan ylitys.",
+      "blindSpot": "Löytää vain sen, mistä on uutisoitu. Säädösten tekstit ja julkiset hankinnat olisivat seuraavat, numeeriset instrumentit."
+    }
+  ]
+}
