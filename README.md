@@ -4,7 +4,7 @@ Demo FDE-tehtävään "ensimmäinen päivä asiakkaalla". Kuvitteellinen asiakas
 puheenjohtaja. Aineisto on Kemiran julkisia tiedotteita ja avoimia tietolähteitä; Kemira ei ole
 osallistunut tämän tekemiseen.
 
-**Demo:** linkki lisätään julkaisun yhteydessä.
+**Demo:** https://ahtavarasmus.github.io/paatosmuisti/ · **Koodi:** https://github.com/ahtavarasmus/paatosmuisti
 
 ## Mihin ongelmaan tartuin
 
